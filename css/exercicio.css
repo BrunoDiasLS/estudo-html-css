@@ -1,0 +1,103 @@
+body {
+    /*background-image: url(/img/Cristo_Redentor_-_Rio_de_Janeiro\,_Brasil.jpg); */
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+.t1 {
+    background-color: rgb(0, 0, 3);
+    color: rgb(206, 17, 17);
+    text-align: center;
+    margin-top: auto;
+    padding: 40px;
+    font-size: 80px;
+    margin-bottom: 0;
+}
+
+.link {
+    background-color: red;
+    margin-top: 0;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.l1 {
+    margin: 10px;
+    color: white;
+
+    text-align: center;
+    padding: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.p1 {
+    background-color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+.p2 {
+    background-color: rgb(243, 239, 239);
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+
+}
+
+.pp2 {
+    font-size: 20px;
+    padding: 16px;
+    margin: 8px;
+}
+
+.p3 {
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+}
+
+.pp3 {
+    font-size: 20px;
+    padding: 16px;
+    margin: 8px;
+}
+
+.p4 {
+    background-color: rgb(243, 239, 239);
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+}
+
+.pp4 {
+    font-size: 20px;
+    padding: 16px;
+    margin: 8px;
+}
+
+.p5 {
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+}
+
+pp5 {
+    font-size: 20px;
+}
+
+.foo {
+    margin-bottom: 10px;
+    background-color: rgb(0, 0, 3);
+    color: rgb(206, 17, 17);
+    text-align: center;
+    margin-top: auto;
+    padding: 40px;
+
+}

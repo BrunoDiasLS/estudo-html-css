@@ -1,0 +1,68 @@
+h3 {
+    background-color: red;
+
+}
+
+.box1 {
+    background-color: orange;
+    padding: 16px;
+    /* Espaçamento interno*/
+    margin: 8px;
+    /* Espaçamento externo*/
+}
+
+.box2 {
+    background-color: green;
+    padding: 8px 20px 4px 10px;
+    /* ordem em sentido horario dos espaçamentos*/
+    margin: 8px 10px 20px 40px;
+}
+
+.box3 {
+    background-color: aquamarine;
+    border: 2px dotted yellow;
+    /* ordem é: espessura, estilo, cor*/
+    border-radius: 8px;
+    /* arredonda os lados*/
+    padding: 8px;
+    margin: 10px;
+}
+
+.box4 {
+    background-color: greenyellow;
+    width: 400px;
+    padding: 20px;
+    border: 5px solid rebeccapurple;
+}
+
+/* O * todos os elementos da pagina vão manter as medidas width400 do caso acima ex, não vai somar com o padding + border.*/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('/img/light-logo.png');
+    /* assim ela repete para completar a pagina com varias imagens*/
+    background-repeat: no-repeat;
+    /* não repete a imagem, mantem uma unica imagem*/
+    /*background-size: contain; /* cover = zoom / contain = estica a imagem na página*/
+    /*background-position: center;*/
+    background-position: right bottom;
+    /*height: 100vh; /* imagem no fundo da pagina 100% */
+    background-attachment: fixed;
+    /* Mantem a imagem fixa ao fundo separado do conteudo*/
+    
+    /* Definition and Usage
+Sequancia para usar o shorthand todos na mesma linha digita background e segue todos juntos na sequencia:
+
+background-color
+background-image
+background-position
+background-size
+background-repeat
+background-origin
+background-clip
+background-attachment */
+}
