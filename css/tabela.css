@@ -1,1 +1,40 @@
- 
+.tabela{
+    background-color: rgb(25, 185, 25);
+    font-size: 30PX;
+}
+
+.times {
+    width: 10%;
+    
+    
+}
+
+.libertadores{
+    color: green;
+}
+    
+.sulamericana{
+    color: orange;
+}
+
+.rebaixamento{
+    color: red;
+}
+
+.foo {
+    
+    background-color: rgb(25, 185, 25);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 20px;
+    margin-top:  10px;
+    margin-bottom: 0;
+    margin-left: 0;
+}
+
+.legenda{
+    display: flex; 
+    flex-direction: row; 
+    justify-content: center; 
+    align-items: center;
+}
