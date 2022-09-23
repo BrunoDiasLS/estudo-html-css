@@ -1,0 +1,21 @@
+*{
+box-sizing: border-box;
+}
+
+.card01 input {
+    width: 400px;
+    height: 600px;
+    
+}
+
+.card02 input {
+    width: 400px;
+    height: 600px;
+    
+}
+
+.card03 input {
+    width: 400px;
+    height: 600px;
+    
+}
