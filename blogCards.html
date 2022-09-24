@@ -16,32 +16,96 @@ Inspirações (não obrigatório seguir):
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./css/blogCards.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            background-image: url('maldivas.jpg');
+        }
+    </style>
 </head>
 
 <body>
-    <section>
-        <div>
-            <h2>Blog</h2>
+    <div class="container">
+        <div class="card">
+            <div class="content">
+                <h3>Maldivas, Oceano Índico</h3>
+                <br>
+                <p> As ilhas Maldivas são o destino ideal para uma viagem romântica ou uma lua de mel. Alugue uma casa
+                    de palafitas privada e mergulhe em seu trecho pessoal da costa. Você nos agradecerá quando voltar a
+                    bordo do nosso grande navio. </p>
+                <a href="#">Descubra as Ilhas Maldivas</a>
+            </div>
         </div>
-        <td>
-            <div class="card01">
-                <label for="card1"></label>
-                <input type="text">
+
+
+        <div class="card">
+            <div class="content">
+                <h3>Bora Bora, Polinésia Francesa</h3>
+                <br>
+                <p> Venha a Bora Bora para aproveitar o sol na praia ou relaxar em um dos muitos resorts de luxo.
+                    Mergulhe aqui para nadar com tubarões ou arraias. Como você pode resistir a essa oportunidade? Bora
+                    Bora está esperando por você! </p>
+                <a href="#">Descubra Bora Bora</a>
             </div>
-        </td>
-        <td>
-            <div class="card02">
-                <label for="card1"></label>
-                <input type="text">
+        </div>
+
+        <div class="card">
+            <div class="content">
+                <h3>Bali, Indonésia</h3>
+                <br>
+                <p> Bali é um destino ideal. Venha surfar em busca da onda mais alta ou dê um mergulho nas cachoeiras de
+                    Aling-Aling. Reserve uma viagem em um submarino ou mergulhe e caminhe pelo fundo marinho cheio de
+                    surpresas. Bali está esperando por você!</p>
+                <a href="#">Descubra Bali</a>
             </div>
-        </td>
-        <td>
-            <div class="card03">
-                <label for="card1"></label>
-                <input type="text">
+        </div>
+        <div class="card">
+            <div class="content">
+                <h3>St. John, Ilhas Virgens</h3>
+                <br>
+                <p> Venha fazer snorkel e admirar o fundo do mar cheio de peixes tropicais onde com um pouco de sorte
+                    você poderá ver as tartarugas nadando à toa sob a superfície da água. Em alternativa, você pode
+                    praticar SUP (Stand Up Paddle), caiaque ou windsurf: as possibilidades de escolha são muitas!</p>
+                <a href="#">Descubra às Ilhas Virgens</a>
             </div>
-        </td>
-    </section>
+        </div>
+        <div class="card">
+            <div class="content">
+                <h3>Ilha de Páscoa, Chile</h3>
+                <br>
+                <p>Bem-vindo à Ilha de Páscoa, um paraíso no sul do Oceano Pacífico sob a jurisdição do Chile. Sim,
+                    estamos falando daquela bela ilha com enormes cabeças de pedra envolta em mistério. Os locais a
+                    chamam de Rapa Nui e é um dos destinos mais exóticos e curiosos que você pode ter o prazer de
+                    visitar.</p>
+                <a href="#">Descubra à Ilha de Páscoa</a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="content">
+                <h3>Grand Cayman, Caribe
+                </h3>
+                <br>
+                <p> Venha aqui, alugue um guarda-sol na praia dourada e aproveite o som do mar sem se preocupar com
+                    nada. Desconecte e aproveite o dia, até o pôr do sol, antes de embarcar em nossos navios.</p>
+                <a href="#">Descubra Grand Cayman</a>
+            </div>
+        </div>
+    </div>
+    
+    <script typr="text/javascript" src="./vanilla-tilt.js"></script>
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".card"), {
+            max: 25,
+            speed: 400,
+            glare: true,
+            "max-glare": 1,
+        });
+    </script>
+    
 </body>
 
 </html>
